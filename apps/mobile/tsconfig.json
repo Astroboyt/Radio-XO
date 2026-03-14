@@ -1,0 +1,12 @@
+{
+  "extends": "../../packages/config/base.json",
+  "compilerOptions": {
+    "jsx": "react-native",
+    "lib": ["DOM", "ESNext"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "types": ["node", "react", "react-native"]
+  },
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.config.js"]
+}

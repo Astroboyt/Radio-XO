@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@300;400;600;700&display=swap');
+
+:root {
+  /* IBM Carbon G100 "Industrial Premium" Tokens */
+  --background: #161616;
+  --layer-01: #262626;
+  --layer-02: #393939;
+  --layer-03: #525252;
+  
+  --text-primary: #f4f4f4;
+  --text-secondary: #c6c6c6;
+  --text-placeholder: #6f6f6f;
+  --text-on-color: #ffffff;
+  
+  --interactive-01: #0f62fe; /* Blue 60 */
+  --interactive-02: #393939; /* Gray 80 */
+  --interactive-03: #a56eff; /* Purple 50 - "Neon Violet" */
+  --interactive-success: #24a148;
+  --interactive-warning: #f1c21b;
+  --interactive-error: #da1e28;
+  
+  --glass: rgba(22, 22, 22, 0.7);
+  --border-subtle: #393939;
+  --border-strong: #525252;
+  
+  --shadow-premium: 0 10px 40px -10px rgba(0, 0, 0, 0.6);
+  --font-main: 'Inter', sans-serif;
+  --font-heading: 'Outfit', sans-serif;
+  
+  --spacing-01: 2px;
+  --spacing-02: 4px;
+  --spacing-03: 8px;
+  --spacing-04: 12px;
+  --spacing-05: 16px;
+  --spacing-06: 24px;
+  --spacing-07: 32px;
+  --spacing-08: 48px;
+}
+
+body {
+  background: var(--background);
+  color: var(--text-primary);
+  font-family: var(--font-main);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+.premium-glass {
+  background: var(--glass);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-premium);
+}
+
+.btn-primary {
+  background: var(--interactive-03);
+  color: var(--text-on-color);
+  border: none;
+  padding: 12px 28px;
+  border-radius: 4px; /* Industrial style: slightly rounded but sharp */
+  font-weight: 600;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 14px;
+}
+
+.btn-primary:hover {
+  background: #be95ff; /* Lightened Purple */
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--border-strong);
+  padding: 12px 28px;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background: var(--layer-01);
+}
+
+.card-industrial {
+  background: var(--layer-01);
+  border: 1px solid var(--border-subtle);
+  padding: var(--spacing-06);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--layer-03);
+  border-radius: 4px;
+}

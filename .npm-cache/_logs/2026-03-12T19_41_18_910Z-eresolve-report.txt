@@ -1,0 +1,424 @@
+'Log files:
+/Users/arvi/Downloads/MakeaSound/.npm-cache/_logs/2026-03-12T19_41_18_910Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: react-native@0.81.0
+Found: @types/react@19.0.14
+apps/mobile/node_modules/@types/react
+  peerOptional @types/react@"^19.1.0" from @react-native/virtualized-lists@0.81.0
+  apps/mobile/node_modules/react-native/node_modules/@react-native/virtualized-lists
+    @react-native/virtualized-lists@"0.81.0" from react-native@0.81.0
+    apps/mobile/node_modules/react-native
+      react-native@"0.81.0" from mobile@1.0.0
+      apps/mobile
+        mobile@1.0.0
+        node_modules/mobile
+          workspace apps/mobile from the root project
+      peer react-native@"*" from expo@54.0.33
+      apps/mobile/node_modules/expo
+        expo@"~54.0.0-beta.0" from mobile@1.0.0
+        apps/mobile
+          mobile@1.0.0
+          node_modules/mobile
+            workspace apps/mobile from the root project
+        peer expo@"*" from expo-av@16.0.8
+        apps/mobile/node_modules/expo-av
+          expo-av@"~16.0.0" from mobile@1.0.0
+          apps/mobile
+            mobile@1.0.0
+            node_modules/mobile
+              workspace apps/mobile from the root project
+        peer expo@"*" from @expo/cli@54.0.23
+        apps/mobile/node_modules/expo/node_modules/@expo/cli
+          @expo/cli@"54.0.23" from expo@54.0.33
+        peerOptional expo@"*" from @expo/metro-config@54.0.14
+        apps/mobile/node_modules/expo/node_modules/@expo/metro-config
+          @expo/metro-config@"54.0.14" from expo@54.0.33
+          @expo/metro-config@"~54.0.14" from @expo/cli@54.0.23
+          apps/mobile/node_modules/expo/node_modules/@expo/cli
+            @expo/cli@"54.0.23" from expo@54.0.33
+        peer expo@"*" from expo-font@14.0.11
+        apps/mobile/node_modules/expo/node_modules/expo-font
+          expo-font@"~14.0.11" from expo@54.0.33
+          peer expo-font@">=14.0.4" from @expo/vector-icons@15.1.1
+          apps/mobile/node_modules/expo/node_modules/@expo/vector-icons
+            @expo/vector-icons@"^15.0.3" from expo@54.0.33
+        peerOptional expo@"*" from babel-preset-expo@54.0.10
+        apps/mobile/node_modules/expo/node_modules/babel-preset-expo
+          babel-preset-expo@"~54.0.10" from expo@54.0.33
+        peer expo@"*" from expo-asset@12.0.12
+        apps/mobile/node_modules/expo/node_modules/expo-asset
+          expo-asset@"~12.0.12" from expo@54.0.33
+        peer expo@"*" from expo-constants@18.0.13
+        apps/mobile/node_modules/expo/node_modules/expo-constants
+          expo-constants@"~18.0.13" from expo@54.0.33
+          expo-constants@"~18.0.12" from expo-asset@12.0.12
+          apps/mobile/node_modules/expo/node_modules/expo-asset
+            expo-asset@"~12.0.12" from expo@54.0.33
+        peer expo@"*" from expo-file-system@19.0.21
+        apps/mobile/node_modules/expo/node_modules/expo-file-system
+          expo-file-system@"~19.0.21" from expo@54.0.33
+        peer expo@"*" from expo-keep-awake@15.0.8
+        apps/mobile/node_modules/expo/node_modules/expo-keep-awake
+          expo-keep-awake@"~15.0.8" from expo@54.0.33
+      peer react-native@"*" from expo-av@16.0.8
+      apps/mobile/node_modules/expo-av
+        expo-av@"~16.0.0" from mobile@1.0.0
+        apps/mobile
+          mobile@1.0.0
+          node_modules/mobile
+            workspace apps/mobile from the root project
+      peerOptional react-native@"*" from @expo/cli@54.0.23
+      apps/mobile/node_modules/expo/node_modules/@expo/cli
+        @expo/cli@"54.0.23" from expo@54.0.33
+      peer react-native@"*" from @expo/vector-icons@15.1.1
+      apps/mobile/node_modules/expo/node_modules/@expo/vector-icons
+        @expo/vector-icons@"^15.0.3" from expo@54.0.33
+      peer react-native@"*" from expo-font@14.0.11
+      apps/mobile/node_modules/expo/node_modules/expo-font
+        expo-font@"~14.0.11" from expo@54.0.33
+        peer expo-font@">=14.0.4" from @expo/vector-icons@15.1.1
+        apps/mobile/node_modules/expo/node_modules/@expo/vector-icons
+          @expo/vector-icons@"^15.0.3" from expo@54.0.33
+      peer react-native@"*" from expo-asset@12.0.12
+      apps/mobile/node_modules/expo/node_modules/expo-asset
+        expo-asset@"~12.0.12" from expo@54.0.33
+      peer react-native@"*" from expo-constants@18.0.13
+      apps/mobile/node_modules/expo/node_modules/expo-constants
+        expo-constants@"~18.0.13" from expo@54.0.33
+        expo-constants@"~18.0.12" from expo-asset@12.0.12
+        apps/mobile/node_modules/expo/node_modules/expo-asset
+          expo-asset@"~12.0.12" from expo@54.0.33
+      peer react-native@"*" from expo-file-system@19.0.21
+      apps/mobile/node_modules/expo/node_modules/expo-file-system
+        expo-file-system@"~19.0.21" from expo@54.0.33
+      peer react-native@"*" from expo-modules-core@3.0.29
+      apps/mobile/node_modules/expo-modules-core
+        expo-modules-core@"3.0.29" from expo@54.0.33
+        apps/mobile/node_modules/expo
+          expo@"~54.0.0-beta.0" from mobile@1.0.0
+          apps/mobile
+            mobile@1.0.0
+            node_modules/mobile
+              workspace apps/mobile from the root project
+          peer expo@"*" from expo-av@16.0.8
+          apps/mobile/node_modules/expo-av
+            expo-av@"~16.0.0" from mobile@1.0.0
+            apps/mobile
+              mobile@1.0.0
+              node_modules/mobile
+                workspace apps/mobile from the root project
+          peer expo@"*" from @expo/cli@54.0.23
+          apps/mobile/node_modules/expo/node_modules/@expo/cli
+            @expo/cli@"54.0.23" from expo@54.0.33
+          peerOptional expo@"*" from @expo/metro-config@54.0.14
+          apps/mobile/node_modules/expo/node_modules/@expo/metro-config
+            @expo/metro-config@"54.0.14" from expo@54.0.33
+            @expo/metro-config@"~54.0.14" from @expo/cli@54.0.23
+            apps/mobile/node_modules/expo/node_modules/@expo/cli
+              @expo/cli@"54.0.23" from expo@54.0.33
+          peer expo@"*" from expo-font@14.0.11
+          apps/mobile/node_modules/expo/node_modules/expo-font
+            expo-font@"~14.0.11" from expo@54.0.33
+            peer expo-font@">=14.0.4" from @expo/vector-icons@15.1.1
+            apps/mobile/node_modules/expo/node_modules/@expo/vector-icons
+              @expo/vector-icons@"^15.0.3" from expo@54.0.33
+          peerOptional expo@"*" from babel-preset-expo@54.0.10
+          apps/mobile/node_modules/expo/node_modules/babel-preset-expo
+            babel-preset-expo@"~54.0.10" from expo@54.0.33
+          peer expo@"*" from expo-asset@12.0.12
+          apps/mobile/node_modules/expo/node_modules/expo-asset
+            expo-asset@"~12.0.12" from expo@54.0.33
+          peer expo@"*" from expo-constants@18.0.13
+          apps/mobile/node_modules/expo/node_modules/expo-constants
+            expo-constants@"~18.0.13" from expo@54.0.33
+            expo-constants@"~18.0.12" from expo-asset@12.0.12
+            apps/mobile/node_modules/expo/node_modules/expo-asset
+              expo-asset@"~12.0.12" from expo@54.0.33
+          peer expo@"*" from expo-file-system@19.0.21
+          apps/mobile/node_modules/expo/node_modules/expo-file-system
+            expo-file-system@"~19.0.21" from expo@54.0.33
+          peer expo@"*" from expo-keep-awake@15.0.8
+          apps/mobile/node_modules/expo/node_modules/expo-keep-awake
+            expo-keep-awake@"~15.0.8" from expo@54.0.33
+      peer react-native@"*" from @react-native/virtualized-lists@0.81.0
+
+Could not resolve dependency:
+peerOptional @types/react@"^19.1.0" from react-native@0.81.0
+apps/mobile/node_modules/react-native
+  react-native@"0.81.0" from mobile@1.0.0
+  apps/mobile
+    mobile@1.0.0
+    node_modules/mobile
+      workspace apps/mobile from the root project
+  peer react-native@"*" from expo@54.0.33
+  apps/mobile/node_modules/expo
+    expo@"~54.0.0-beta.0" from mobile@1.0.0
+    apps/mobile
+      mobile@1.0.0
+      node_modules/mobile
+        workspace apps/mobile from the root project
+    peer expo@"*" from expo-av@16.0.8
+    apps/mobile/node_modules/expo-av
+      expo-av@"~16.0.0" from mobile@1.0.0
+      apps/mobile
+        mobile@1.0.0
+        node_modules/mobile
+          workspace apps/mobile from the root project
+    peer expo@"*" from @expo/cli@54.0.23
+    apps/mobile/node_modules/expo/node_modules/@expo/cli
+      @expo/cli@"54.0.23" from expo@54.0.33
+    peerOptional expo@"*" from @expo/metro-config@54.0.14
+    apps/mobile/node_modules/expo/node_modules/@expo/metro-config
+      @expo/metro-config@"54.0.14" from expo@54.0.33
+      @expo/metro-config@"~54.0.14" from @expo/cli@54.0.23
+      apps/mobile/node_modules/expo/node_modules/@expo/cli
+        @expo/cli@"54.0.23" from expo@54.0.33
+    peer expo@"*" from expo-font@14.0.11
+    apps/mobile/node_modules/expo/node_modules/expo-font
+      expo-font@"~14.0.11" from expo@54.0.33
+      peer expo-font@">=14.0.4" from @expo/vector-icons@15.1.1
+      apps/mobile/node_modules/expo/node_modules/@expo/vector-icons
+        @expo/vector-icons@"^15.0.3" from expo@54.0.33
+    peerOptional expo@"*" from babel-preset-expo@54.0.10
+    apps/mobile/node_modules/expo/node_modules/babel-preset-expo
+      babel-preset-expo@"~54.0.10" from expo@54.0.33
+    peer expo@"*" from expo-asset@12.0.12
+    apps/mobile/node_modules/expo/node_modules/expo-asset
+      expo-asset@"~12.0.12" from expo@54.0.33
+    peer expo@"*" from expo-constants@18.0.13
+    apps/mobile/node_modules/expo/node_modules/expo-constants
+      expo-constants@"~18.0.13" from expo@54.0.33
+      expo-constants@"~18.0.12" from expo-asset@12.0.12
+      apps/mobile/node_modules/expo/node_modules/expo-asset
+        expo-asset@"~12.0.12" from expo@54.0.33
+    peer expo@"*" from expo-file-system@19.0.21
+    apps/mobile/node_modules/expo/node_modules/expo-file-system
+      expo-file-system@"~19.0.21" from expo@54.0.33
+    peer expo@"*" from expo-keep-awake@15.0.8
+    apps/mobile/node_modules/expo/node_modules/expo-keep-awake
+      expo-keep-awake@"~15.0.8" from expo@54.0.33
+  peer react-native@"*" from expo-av@16.0.8
+  apps/mobile/node_modules/expo-av
+    expo-av@"~16.0.0" from mobile@1.0.0
+    apps/mobile
+      mobile@1.0.0
+      node_modules/mobile
+        workspace apps/mobile from the root project
+  peerOptional react-native@"*" from @expo/cli@54.0.23
+  apps/mobile/node_modules/expo/node_modules/@expo/cli
+    @expo/cli@"54.0.23" from expo@54.0.33
+  peer react-native@"*" from @expo/vector-icons@15.1.1
+  apps/mobile/node_modules/expo/node_modules/@expo/vector-icons
+    @expo/vector-icons@"^15.0.3" from expo@54.0.33
+  peer react-native@"*" from expo-font@14.0.11
+  apps/mobile/node_modules/expo/node_modules/expo-font
+    expo-font@"~14.0.11" from expo@54.0.33
+    peer expo-font@">=14.0.4" from @expo/vector-icons@15.1.1
+    apps/mobile/node_modules/expo/node_modules/@expo/vector-icons
+      @expo/vector-icons@"^15.0.3" from expo@54.0.33
+  peer react-native@"*" from expo-asset@12.0.12
+  apps/mobile/node_modules/expo/node_modules/expo-asset
+    expo-asset@"~12.0.12" from expo@54.0.33
+  peer react-native@"*" from expo-constants@18.0.13
+  apps/mobile/node_modules/expo/node_modules/expo-constants
+    expo-constants@"~18.0.13" from expo@54.0.33
+    expo-constants@"~18.0.12" from expo-asset@12.0.12
+    apps/mobile/node_modules/expo/node_modules/expo-asset
+      expo-asset@"~12.0.12" from expo@54.0.33
+  peer react-native@"*" from expo-file-system@19.0.21
+  apps/mobile/node_modules/expo/node_modules/expo-file-system
+    expo-file-system@"~19.0.21" from expo@54.0.33
+  peer react-native@"*" from expo-modules-core@3.0.29
+  apps/mobile/node_modules/expo-modules-core
+    expo-modules-core@"3.0.29" from expo@54.0.33
+    apps/mobile/node_modules/expo
+      expo@"~54.0.0-beta.0" from mobile@1.0.0
+      apps/mobile
+        mobile@1.0.0
+        node_modules/mobile
+          workspace apps/mobile from the root project
+      peer expo@"*" from expo-av@16.0.8
+      apps/mobile/node_modules/expo-av
+        expo-av@"~16.0.0" from mobile@1.0.0
+        apps/mobile
+          mobile@1.0.0
+          node_modules/mobile
+            workspace apps/mobile from the root project
+      peer expo@"*" from @expo/cli@54.0.23
+      apps/mobile/node_modules/expo/node_modules/@expo/cli
+        @expo/cli@"54.0.23" from expo@54.0.33
+      peerOptional expo@"*" from @expo/metro-config@54.0.14
+      apps/mobile/node_modules/expo/node_modules/@expo/metro-config
+        @expo/metro-config@"54.0.14" from expo@54.0.33
+        @expo/metro-config@"~54.0.14" from @expo/cli@54.0.23
+        apps/mobile/node_modules/expo/node_modules/@expo/cli
+          @expo/cli@"54.0.23" from expo@54.0.33
+      peer expo@"*" from expo-font@14.0.11
+      apps/mobile/node_modules/expo/node_modules/expo-font
+        expo-font@"~14.0.11" from expo@54.0.33
+        peer expo-font@">=14.0.4" from @expo/vector-icons@15.1.1
+        apps/mobile/node_modules/expo/node_modules/@expo/vector-icons
+          @expo/vector-icons@"^15.0.3" from expo@54.0.33
+      peerOptional expo@"*" from babel-preset-expo@54.0.10
+      apps/mobile/node_modules/expo/node_modules/babel-preset-expo
+        babel-preset-expo@"~54.0.10" from expo@54.0.33
+      peer expo@"*" from expo-asset@12.0.12
+      apps/mobile/node_modules/expo/node_modules/expo-asset
+        expo-asset@"~12.0.12" from expo@54.0.33
+      peer expo@"*" from expo-constants@18.0.13
+      apps/mobile/node_modules/expo/node_modules/expo-constants
+        expo-constants@"~18.0.13" from expo@54.0.33
+        expo-constants@"~18.0.12" from expo-asset@12.0.12
+        apps/mobile/node_modules/expo/node_modules/expo-asset
+          expo-asset@"~12.0.12" from expo@54.0.33
+      peer expo@"*" from expo-file-system@19.0.21
+      apps/mobile/node_modules/expo/node_modules/expo-file-system
+        expo-file-system@"~19.0.21" from expo@54.0.33
+      peer expo@"*" from expo-keep-awake@15.0.8
+      apps/mobile/node_modules/expo/node_modules/expo-keep-awake
+        expo-keep-awake@"~15.0.8" from expo@54.0.33
+  peer react-native@"*" from @react-native/virtualized-lists@0.81.0
+
+Conflicting peer dependency: @types/react@19.2.14
+node_modules/@types/react
+  peerOptional @types/react@"^19.1.0" from react-native@0.81.0
+  apps/mobile/node_modules/react-native
+    react-native@"0.81.0" from mobile@1.0.0
+    apps/mobile
+      mobile@1.0.0
+      node_modules/mobile
+        workspace apps/mobile from the root project
+    peer react-native@"*" from expo@54.0.33
+    apps/mobile/node_modules/expo
+      expo@"~54.0.0-beta.0" from mobile@1.0.0
+      apps/mobile
+        mobile@1.0.0
+        node_modules/mobile
+          workspace apps/mobile from the root project
+      peer expo@"*" from expo-av@16.0.8
+      apps/mobile/node_modules/expo-av
+        expo-av@"~16.0.0" from mobile@1.0.0
+        apps/mobile
+          mobile@1.0.0
+          node_modules/mobile
+            workspace apps/mobile from the root project
+      peer expo@"*" from @expo/cli@54.0.23
+      apps/mobile/node_modules/expo/node_modules/@expo/cli
+        @expo/cli@"54.0.23" from expo@54.0.33
+      peerOptional expo@"*" from @expo/metro-config@54.0.14
+      apps/mobile/node_modules/expo/node_modules/@expo/metro-config
+        @expo/metro-config@"54.0.14" from expo@54.0.33
+        @expo/metro-config@"~54.0.14" from @expo/cli@54.0.23
+        apps/mobile/node_modules/expo/node_modules/@expo/cli
+          @expo/cli@"54.0.23" from expo@54.0.33
+      peer expo@"*" from expo-font@14.0.11
+      apps/mobile/node_modules/expo/node_modules/expo-font
+        expo-font@"~14.0.11" from expo@54.0.33
+        peer expo-font@">=14.0.4" from @expo/vector-icons@15.1.1
+        apps/mobile/node_modules/expo/node_modules/@expo/vector-icons
+          @expo/vector-icons@"^15.0.3" from expo@54.0.33
+      peerOptional expo@"*" from babel-preset-expo@54.0.10
+      apps/mobile/node_modules/expo/node_modules/babel-preset-expo
+        babel-preset-expo@"~54.0.10" from expo@54.0.33
+      peer expo@"*" from expo-asset@12.0.12
+      apps/mobile/node_modules/expo/node_modules/expo-asset
+        expo-asset@"~12.0.12" from expo@54.0.33
+      peer expo@"*" from expo-constants@18.0.13
+      apps/mobile/node_modules/expo/node_modules/expo-constants
+        expo-constants@"~18.0.13" from expo@54.0.33
+        expo-constants@"~18.0.12" from expo-asset@12.0.12
+        apps/mobile/node_modules/expo/node_modules/expo-asset
+          expo-asset@"~12.0.12" from expo@54.0.33
+      peer expo@"*" from expo-file-system@19.0.21
+      apps/mobile/node_modules/expo/node_modules/expo-file-system
+        expo-file-system@"~19.0.21" from expo@54.0.33
+      peer expo@"*" from expo-keep-awake@15.0.8
+      apps/mobile/node_modules/expo/node_modules/expo-keep-awake
+        expo-keep-awake@"~15.0.8" from expo@54.0.33
+    peer react-native@"*" from expo-av@16.0.8
+    apps/mobile/node_modules/expo-av
+      expo-av@"~16.0.0" from mobile@1.0.0
+      apps/mobile
+        mobile@1.0.0
+        node_modules/mobile
+          workspace apps/mobile from the root project
+    peerOptional react-native@"*" from @expo/cli@54.0.23
+    apps/mobile/node_modules/expo/node_modules/@expo/cli
+      @expo/cli@"54.0.23" from expo@54.0.33
+    peer react-native@"*" from @expo/vector-icons@15.1.1
+    apps/mobile/node_modules/expo/node_modules/@expo/vector-icons
+      @expo/vector-icons@"^15.0.3" from expo@54.0.33
+    peer react-native@"*" from expo-font@14.0.11
+    apps/mobile/node_modules/expo/node_modules/expo-font
+      expo-font@"~14.0.11" from expo@54.0.33
+      peer expo-font@">=14.0.4" from @expo/vector-icons@15.1.1
+      apps/mobile/node_modules/expo/node_modules/@expo/vector-icons
+        @expo/vector-icons@"^15.0.3" from expo@54.0.33
+    peer react-native@"*" from expo-asset@12.0.12
+    apps/mobile/node_modules/expo/node_modules/expo-asset
+      expo-asset@"~12.0.12" from expo@54.0.33
+    peer react-native@"*" from expo-constants@18.0.13
+    apps/mobile/node_modules/expo/node_modules/expo-constants
+      expo-constants@"~18.0.13" from expo@54.0.33
+      expo-constants@"~18.0.12" from expo-asset@12.0.12
+      apps/mobile/node_modules/expo/node_modules/expo-asset
+        expo-asset@"~12.0.12" from expo@54.0.33
+    peer react-native@"*" from expo-file-system@19.0.21
+    apps/mobile/node_modules/expo/node_modules/expo-file-system
+      expo-file-system@"~19.0.21" from expo@54.0.33
+    peer react-native@"*" from expo-modules-core@3.0.29
+    apps/mobile/node_modules/expo-modules-core
+      expo-modules-core@"3.0.29" from expo@54.0.33
+      apps/mobile/node_modules/expo
+        expo@"~54.0.0-beta.0" from mobile@1.0.0
+        apps/mobile
+          mobile@1.0.0
+          node_modules/mobile
+            workspace apps/mobile from the root project
+        peer expo@"*" from expo-av@16.0.8
+        apps/mobile/node_modules/expo-av
+          expo-av@"~16.0.0" from mobile@1.0.0
+          apps/mobile
+            mobile@1.0.0
+            node_modules/mobile
+              workspace apps/mobile from the root project
+        peer expo@"*" from @expo/cli@54.0.23
+        apps/mobile/node_modules/expo/node_modules/@expo/cli
+          @expo/cli@"54.0.23" from expo@54.0.33
+        peerOptional expo@"*" from @expo/metro-config@54.0.14
+        apps/mobile/node_modules/expo/node_modules/@expo/metro-config
+          @expo/metro-config@"54.0.14" from expo@54.0.33
+          @expo/metro-config@"~54.0.14" from @expo/cli@54.0.23
+          apps/mobile/node_modules/expo/node_modules/@expo/cli
+            @expo/cli@"54.0.23" from expo@54.0.33
+        peer expo@"*" from expo-font@14.0.11
+        apps/mobile/node_modules/expo/node_modules/expo-font
+          expo-font@"~14.0.11" from expo@54.0.33
+          peer expo-font@">=14.0.4" from @expo/vector-icons@15.1.1
+          apps/mobile/node_modules/expo/node_modules/@expo/vector-icons
+            @expo/vector-icons@"^15.0.3" from expo@54.0.33
+        peerOptional expo@"*" from babel-preset-expo@54.0.10
+        apps/mobile/node_modules/expo/node_modules/babel-preset-expo
+          babel-preset-expo@"~54.0.10" from expo@54.0.33
+        peer expo@"*" from expo-asset@12.0.12
+        apps/mobile/node_modules/expo/node_modules/expo-asset
+          expo-asset@"~12.0.12" from expo@54.0.33
+        peer expo@"*" from expo-constants@18.0.13
+        apps/mobile/node_modules/expo/node_modules/expo-constants
+          expo-constants@"~18.0.13" from expo@54.0.33
+          expo-constants@"~18.0.12" from expo-asset@12.0.12
+          apps/mobile/node_modules/expo/node_modules/expo-asset
+            expo-asset@"~12.0.12" from expo@54.0.33
+        peer expo@"*" from expo-file-system@19.0.21
+        apps/mobile/node_modules/expo/node_modules/expo-file-system
+          expo-file-system@"~19.0.21" from expo@54.0.33
+        peer expo@"*" from expo-keep-awake@15.0.8
+        apps/mobile/node_modules/expo/node_modules/expo-keep-awake
+          expo-keep-awake@"~15.0.8" from expo@54.0.33
+    peer react-native@"*" from @react-native/virtualized-lists@0.81.0
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
