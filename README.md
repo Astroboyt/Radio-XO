@@ -2,7 +2,7 @@
 
 "Capturing the essence of life, one frequency at a time."
 
-Make a Sound is an industrial-grade monorepo for high-fidelity audio capture and discovery. It features a mobile-first recording engine (The Sampler) and a web-based exploration layer.
+Make a Sound is an  monorepo for high-fidelity audio capture and discovery. It features a mobile-first recording engine (The Sampler) and a web-based exploration layer.
 
 ## Architecture
 
